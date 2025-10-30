@@ -2,8 +2,8 @@
 	"format_version": 2,
 	"header": {
 		"description": "Made with moderate amounts of care by SunnyTheFennec \"xskt\".",
-		"name": "Gametest Starter Addon",
-		"uuid": "f15047db-ad9d-4dc8-9b5e-88bcaa0666df",
+		"name": "War of the Beds Addon",
+		"uuid": "6df35edc-5aec-40f7-a373-01bd7a29cfd5",
 		"version": [
 			1,
 			0,
@@ -12,14 +12,14 @@
 		"min_engine_version": [
 			1,
 			21,
-			111
+			120
 		]
 	},
 	"modules": [
 		{
 			"description": "Addon Module",
 			"type": "data",
-			"uuid": "335a6ee7-c060-426b-bee1-28752ed2e6f8",
+			"uuid": "6f359faa-e7ff-454d-9031-d078765d4c48",
 			"version": [
 				1,
 				0,
@@ -30,7 +30,7 @@
 			"description": "Scripting Module",
 			"type": "script",
 			"language": "javascript",
-			"uuid": "785762b9-6e55-46a3-bc2f-ec983a3927e2",
+			"uuid": "2d8ae7db-6a45-47fb-b1fa-00b5e034b023",
 			"version": [
 				1,
 				0,
@@ -42,11 +42,11 @@
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "2.2.0"
+			"version": "2.4.0-beta"
 		},
 		{
 			"module_name": "@minecraft/server-ui",
-			"version": "2.0.0"
+			"version": "2.1.0-beta"
 		}
 	]
 }
